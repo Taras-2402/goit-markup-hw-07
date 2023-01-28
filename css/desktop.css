@@ -1,0 +1,58 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1158px;
+    }
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+    }
+    .main-title {
+        margin-bottom: 48px;
+    }
+    .qual {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .quality-icon {
+        display: block;
+        display: flex;
+    }
+    .quality-list {
+        width: calc((100% - 72px) / 4);
+    }
+    .quality {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        
+    } 
+    .text-list {
+        font-weight: 400;
+        
+    }
+
+    .work {
+        display: block;
+    }
+    .our-team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .list-item-team {
+        width: calc((100% - 72px) / 4);
+    }
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .footer {
+    
+        padding-left: 15px;
+    }
+    .list-footer {
+        gap: 120px;
+    }
+    .sub-field {
+        margin-left: 80px;
+    }
+}
