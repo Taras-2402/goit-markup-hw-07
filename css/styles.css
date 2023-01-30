@@ -55,7 +55,7 @@ color: var(--text-color);
 
 .header-container {
     display: flex;
-    height: 72px;
+    height: 70px;
     background: #FFFFFF;
 }   
 .header-container::after{
@@ -71,7 +71,7 @@ color: var(--text-color);
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1.16;
     color: var(--btn-color);
     /* margin-right: 76px; */
     }
@@ -82,7 +82,7 @@ color: var(--text-color);
     color: #F4F4FD;    
 }
 .menu {    
-    display: flex;
+    display: none;
     gap: 40px;
     margin-left: 76px;
 }
@@ -111,7 +111,7 @@ color: var(--text-color);
     color:  var(--text-color);
 } 
 .list-container {
-    display: flex;
+    display: none;
     gap: 40px;
     justify-content: center;
     align-items: center;
@@ -124,6 +124,17 @@ color: var(--text-color);
     letter-spacing: 0.02em;
     color: #434455;
 }
+.menu-open {
+    width: 32px;
+    height: 22px;
+    padding: 24px 16px;
+    background-color: transparent;
+    border: none;
+    
+}
+.menu-open-icon {
+    stroke: #2E2F42;
+}
 .phone-number {
 }
 /*--/Header--*/
@@ -133,10 +144,18 @@ color: var(--text-color);
     padding-bottom: 112px;
     background: #2E2F42;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
+    rgba(46, 47, 66, 0.7)), url(../images/hero-bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+ rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob-2x.jpg);
+
+}
 }
 .title {
     display: none;

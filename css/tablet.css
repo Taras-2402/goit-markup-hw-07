@@ -2,9 +2,69 @@
     .container {
         width: 766px;
     }
+    .page-nav {
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+    .menu {
+        display: flex;
+        gap: 40px;
+        margin-left: 76px;
+    }
+    
+    
+    .current::after {
+        position: absolute;
+        left: 0;
+        bottom: -26px;
+        content: "";
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: var(--btn-background);
+        border-radius: 2px;
+    }
+    
+    .menu-link.current {
+            color: #404BBF;
+    }
+    
+    .menu-link {
+        position: relative;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--text-color);
+    }
+    
+    .list-container {
+        display: block;
+        gap: 4px;
+        padding-top: 24px;
+    }
+    
+    .mail-studio,
+    .phone-number {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
     .hero {
         padding-bottom: 108px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)), url(../images/hero-bg-tab.jpg);
     }
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-tab-2x.jpg);    
+            }
+        }
     .main-title {
         font-size: 56px;
         line-height: 1.07;
@@ -25,9 +85,10 @@
     }
     .list-our-team {
         gap: 24px;
+        justify-content: center;
     }
     .list-item-team {
-        width: calc((100% - 24px) / 2);
+        width: 264px;
 
     }
     .list-customers {
