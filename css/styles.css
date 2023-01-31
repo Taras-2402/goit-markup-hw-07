@@ -47,7 +47,6 @@ color: var(--text-color);
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
-    /* width: 1158px; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -138,7 +137,6 @@ color: var(--text-color);
 .menu-close {
     width: 24px;
     height: 24px;
-    /* position: absolute; */
     top: 40px;
     right: 40px;
     background: #E7E9FC;
@@ -203,8 +201,7 @@ color: var(--text-color);
 }
 .mob-soc-list {
     display: flex;
-    gap: 56px;
-    padding-right: 40px;
+    justify-content: space-between;
 }
 .phone-number {
 }
@@ -711,6 +708,7 @@ color: var(--text-color);
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
+    
     
 }
 .list-item-customers {
