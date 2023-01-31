@@ -2,6 +2,20 @@
     .container {
         width: 1158px;
     }
+    .list-container {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+    .mail-studio,
+    .phone-number {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
     .hero {
         padding-top: 188px;
         padding-bottom: 188px;

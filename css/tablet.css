@@ -27,7 +27,7 @@
     }
     
     .menu-link.current {
-            color: #404BBF;
+        color: #404BBF;
     }
     
     .menu-link {
@@ -51,6 +51,9 @@
         line-height: 1.33;
         letter-spacing: 0.02em;
         color: #434455;
+    }
+    .menu-open {
+        display: none;
     }
     .hero {
         padding-bottom: 108px;
