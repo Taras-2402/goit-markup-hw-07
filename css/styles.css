@@ -700,7 +700,7 @@ color: var(--text-color);
 }
 .customers {
     padding-top: 96px;
-    padding-bottom: 96px;
+    padding-bottom: 24px;
 }
 .list-customers {
     display: flex;
@@ -714,6 +714,10 @@ color: var(--text-color);
     width: 190px;
     height: 88px;
     margin-bottom: 72px;
+    
+}
+.list-item-customers:not(:last-child) {
+    /* margin-bottom: 72px; */
 }
 .link-customers {
     width: 100%;
