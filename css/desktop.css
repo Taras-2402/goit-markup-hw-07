@@ -45,6 +45,7 @@
     }
     .quality-list {
         width: calc((100% - 72px) / 4);
+        margin-bottom: 0;
     }
     .quality {
         font-weight: 500;
@@ -66,17 +67,21 @@
     }
     .list-item-team {
         width: calc((100% - 72px) / 4);
+        margin-bottom: 0;
     }
     .customers {
         padding-top: 120px;
         padding-bottom: 120px;
     }
-    .footer {
-    
-        padding-left: 15px;
+    .list-item-customers {
+        margin-bottom: 0;
+    }
+    .footer {    
+        padding-left: 0;
     }
     .list-footer {
         gap: 120px;
+        margin-bottom: 0;
     }
     .sub-field {
         margin-left: 80px;
